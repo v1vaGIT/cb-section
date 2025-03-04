@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("DOM полностью загружен и разобран");
     
     const firstCard = document.querySelector("#firstCard")
     const secondCard = document.querySelector("#secondCard")
@@ -12,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function openText(button, text, btnText) {
         const opened = button.classList.contains("card-content__button-opened")
-        console.log(opened)
         text.classList.toggle("card-content__opened")
         if (opened) {
             button.classList.remove("card-content__button-opened")
