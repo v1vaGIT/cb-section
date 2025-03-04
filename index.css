@@ -166,12 +166,12 @@ body{
     padding: 0;
     margin-bottom: 8px;
     height: auto;
-    max-height: 46px;
+    max-height: 42px;
     transition: max-height 0.5s ease-in-out;
-    overflow: hidden;
+    overflow: visible;
 }
 .card-content__opened p{
-    max-height: 90px;
+    max-height: none;
     overflow: visible;
 }
 .card-content__fio{
